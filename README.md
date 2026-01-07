@@ -9,7 +9,7 @@ Dataset
  - [Breast Cancer Wisconsin (Diagnostic)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) dataset: 569 instances, 32 features
 
 Steps
- - Data Cleaning: Removed 'Unnamed: 32' column (all NaNs) and 'id' column
+ - Data Cleaning: removed "Unnamed: 32" column (all NaNs) and 'id' column
  - Data Split: split data into training and testing (80:20)
  - Custom Feature Scaling: manual standardization (mean=0, std=1) based on training data
  - Custom KNN Model: used KNN class with euclidean_distance for classification (no scikit-learn)
